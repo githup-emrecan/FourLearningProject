@@ -15,7 +15,7 @@ public class LesQuizManager : MonoBehaviour
   public GameObject QuizPanel;
   
   public GameObject BGPanell;
-  
+  public Button btnnext;
   public Text Scoretxt;
   public int score;
 
@@ -46,7 +46,15 @@ void Gameover()
   {
      BGPanell.SetActive(true);
      QuizPanel.SetActive(false);
-     Scoretxt.text = (score*10).ToString();
+     Scoretxt.text = (score*10).ToString(); 
+
+     if(score <3)
+     {
+        btnnext.interactable = false;
+     }
+     else{
+        btnnext.interactable = true;
+     }
   }
 
 public void Retrty()
