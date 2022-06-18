@@ -47,10 +47,17 @@ public class Lesson1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { 
+<<<<<<< Updated upstream
       
    LessonNextButton.GetComponent<Button>().interactable = false;
       StartCoroutine(WaitingFunction());
          
+=======
+        Debug.Log(Entext.Length);
+   //LessonNextButton.GetComponent<Button>().interactable = false;
+    //  StartCoroutine(WaitingFunction());
+      
+>>>>>>> Stashed changes
         if(ImageCount==0)
         {
            LessonBackButton.GetComponent<RectTransform>().DOScale(0,1f);
@@ -83,17 +90,27 @@ public class Lesson1 : MonoBehaviour
 
  public void ArrayCountIncrease()
  { 
+<<<<<<< Updated upstream
    if(ImageCount == images.Length-1) {
             SceneManager.LoadScene("quiz 1");
          }
+=======
+    if (ImageCount == Entext.Length-1)
+    {
+     SceneManager.LoadScene("quiz 1");
+    }
+>>>>>>> Stashed changes
      ImageCount= ImageCount+1;
     ShowInArray(ImageCount);
-    LessonNextButton.GetComponent<Button>().interactable = false;
-      StartCoroutine(WaitingFunction());
+
+    //LessonNextButton.GetComponent<Button>().interactable = false;
+      //StartCoroutine(WaitingFunction());
  if(ImageCount >=1)
     {
        LessonBackButton.GetComponent<RectTransform>().DOScale(1,1f);
+  
     }
+ 
  }
 
 public void ShowEnSound()
@@ -134,11 +151,11 @@ public void ShowSound2(int indexx)
     }
  }
   
-IEnumerator WaitingFunction()
+/*IEnumerator WaitingFunction()
  {
    yield return new WaitForSeconds(3);
    LessonNextButton.GetComponent<Button>().interactable = true;
  }
-
+*/
 
 }
