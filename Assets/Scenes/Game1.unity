@@ -2084,6 +2084,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  panel: {fileID: 888973565}
+  question: []
+  players: []
 --- !u!95 &1744323993
 Animator:
   serializedVersion: 3
