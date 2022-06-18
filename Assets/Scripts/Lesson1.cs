@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-
+using UnityEngine.SceneManagement;
 public class Lesson1 : MonoBehaviour
 {
     [SerializeField]
@@ -47,9 +47,10 @@ public class Lesson1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { 
+      
    LessonNextButton.GetComponent<Button>().interactable = false;
       StartCoroutine(WaitingFunction());
-      
+         
         if(ImageCount==0)
         {
            LessonBackButton.GetComponent<RectTransform>().DOScale(0,1f);
@@ -82,6 +83,9 @@ public class Lesson1 : MonoBehaviour
 
  public void ArrayCountIncrease()
  { 
+   if(ImageCount == images.Length-1) {
+            SceneManager.LoadScene("quiz 1");
+         }
      ImageCount= ImageCount+1;
     ShowInArray(ImageCount);
     LessonNextButton.GetComponent<Button>().interactable = false;
