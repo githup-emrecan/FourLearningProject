@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class Lesson1 : MonoBehaviour
+public class Lesson2 : MonoBehaviour
 {
     [SerializeField]
      private Sprite[] images; //resimleri için array
@@ -32,8 +32,8 @@ public class Lesson1 : MonoBehaviour
   [SerializeField]
     private GameObject LessonEnAudioButton;
      
-     public string[] Entext = { "Pear","Strawberry","Apple", "Coconut", "WaterMelon", "Melon", "Cheery", "Kewe", "Banana", "Orange"}; // ingilizce Textler
-     public string[] Trtext = {"Armut","Çilek","Elma","Hindistan cevizi", "Karpuz", "Kavun", "Kiraz", "Kivi", "Muz", "Portakal"};  // Türkçe Textler
+     public string[] Entext = { "White","Grey","Brown", "Red", "Blue", "Pink", "Yellow", "Black", "Orange", "Green"}; // ingilizce Textler
+     public string[] Trtext = {"Beyaz","Gri","Kahverengi","Kırmızı", "mavi", "Pembe", "Sarı", "Siyah", "Turuncu", "Yeşil"};  // Türkçe Textler
 
     [SerializeField]
      private  Text displayEnText;  // ingilizce text göstermek için

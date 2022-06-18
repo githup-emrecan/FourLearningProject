@@ -385,10 +385,10 @@ RectTransform:
   m_Father: {fileID: 1567388833}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.202, y: 0.12146741}
+  m_AnchorMax: {x: 0.7762831, y: 0.91}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -126, y: -106}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118825586
 MonoBehaviour:
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9577b6e76decc7840b1947a2333ac28d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 356dd21d3a42dd24e81b7b6f52db25f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -921,10 +921,10 @@ RectTransform:
   m_Father: {fileID: 1677515871}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.6608126}
-  m_AnchorMax: {x: 0.85544443, y: 0.7275001}
-  m_AnchoredPosition: {x: -2.9072876, y: 120.18646}
-  m_SizeDelta: {x: 48.869476, y: 13.390808}
+  m_AnchorMin: {x: 0.084722206, y: 0.70441294}
+  m_AnchorMax: {x: 0.9208905, y: 0.86924446}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260129204
 MonoBehaviour:
@@ -959,7 +959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Animals (Hayvanlar)
+  m_Text: "Aile \xFCyeleri\n(Family Members)"
 --- !u!222 &260129205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1732,10 +1732,10 @@ RectTransform:
   m_Father: {fileID: 517219818}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.19854611, y: 0.097110644}
+  m_AnchorMax: {x: 0.82326955, y: 0.8944441}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -126, y: -106}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062218748
 MonoBehaviour:
@@ -1757,7 +1757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e96ed1247dfbc884f81499bb15a6169d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1807,10 +1807,10 @@ RectTransform:
   m_Father: {fileID: 988903739}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.5273438}
-  m_AnchorMax: {x: 0.87611115, y: 0.59450006}
-  m_AnchoredPosition: {x: -10.126648, y: -21.969116}
-  m_SizeDelta: {x: 116.73923, y: 76.028946}
+  m_AnchorMin: {x: 0, y: 0.09423777}
+  m_AnchorMax: {x: 1, y: 0.6215245}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315948961
 MonoBehaviour:
@@ -1834,10 +1834,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1845,7 +1845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Find the Birth ?
+  m_Text: Find the Aunt ?
 --- !u!222 &1315948962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2201,7 +2201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Lesson 5'
+  m_Text: ' Lesson 3'
 --- !u!222 &1449894629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2536,41 +2536,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QandA:
-  - Question: Find The Birth ?
+  - Question: Find The Aunt?
     Answers:
-    - {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
-    - {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
-    - {fileID: 21300000, guid: 3165efd4847deab49b1f0075777bd413, type: 3}
-    - {fileID: 21300000, guid: 9577b6e76decc7840b1947a2333ac28d, type: 3}
+    - {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: 356dd21d3a42dd24e81b7b6f52db25f1, type: 3}
+    - {fileID: 21300000, guid: 9a959f4fde7d9b44a932c2787ef20b42, type: 3}
     CorrectAnswers: 4
-  - Question: Find The Bear?
+  - Question: Find The  Brother?
     Answers:
-    - {fileID: 21300000, guid: b99fd6681776ebe4594830b92251ff9b, type: 3}
-    - {fileID: 21300000, guid: ef052057f0404ea4d8e34bf1253d2823, type: 3}
-    - {fileID: 21300000, guid: 7483b5cbae622ac47a727e4453895e1b, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: e63ce8fff74ad8747ae9f323dbbe2f13, type: 3}
+    - {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: e96ed1247dfbc884f81499bb15a6169d, type: 3}
     CorrectAnswers: 1
-  - Question: Find The Leon
+  - Question: Find The Cousen?
     Answers:
-    - {fileID: 21300000, guid: 36fef461f196d914dbe92ca8553338b2, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    - {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: 93a66cfdf519f164284a038236c7edd2, type: 3}
+    - {fileID: 21300000, guid: 79ab2c49d7907534eaf62635b153334b, type: 3}
+    - {fileID: 21300000, guid: 5b24a7238b051b24c83c85f329cff554, type: 3}
+    - {fileID: 21300000, guid: 2277954f2039cf84fab9996a4ddd446e, type: 3}
     CorrectAnswers: 3
-  - Question: Find The horse
+  - Question: Find The Father?
     Answers:
-    - {fileID: 21300000, guid: 50550c3b85e455942973aa561b7ea4c3, type: 3}
-    - {fileID: 21300000, guid: 36fef461f196d914dbe92ca8553338b2, type: 3}
-    - {fileID: 21300000, guid: 7483b5cbae622ac47a727e4453895e1b, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    CorrectAnswers: 2
-  - Question: Find The giraffe
-    Answers:
-    - {fileID: 21300000, guid: ef052057f0404ea4d8e34bf1253d2823, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    - {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
-    - {fileID: 21300000, guid: 3165efd4847deab49b1f0075777bd413, type: 3}
+    - {fileID: 21300000, guid: 79ab2c49d7907534eaf62635b153334b, type: 3}
+    - {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
+    - {fileID: 21300000, guid: 5b24a7238b051b24c83c85f329cff554, type: 3}
+    - {fileID: 21300000, guid: 9a959f4fde7d9b44a932c2787ef20b42, type: 3}
     CorrectAnswers: 1
+  - Question: Find The  Grandchild?
+    Answers:
+    - {fileID: 21300000, guid: 2277954f2039cf84fab9996a4ddd446e, type: 3}
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
+    - {fileID: 21300000, guid: 356dd21d3a42dd24e81b7b6f52db25f1, type: 3}
+    CorrectAnswers: 1
+  - Question: Find The GrandFather?
+    Answers:
+    - {fileID: 21300000, guid: e63ce8fff74ad8747ae9f323dbbe2f13, type: 3}
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: 356dd21d3a42dd24e81b7b6f52db25f1, type: 3}
+    - {fileID: 21300000, guid: e96ed1247dfbc884f81499bb15a6169d, type: 3}
+    CorrectAnswers: 4
+  - Question: Find The GrandMother?
+    Answers:
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: 356dd21d3a42dd24e81b7b6f52db25f1, type: 3}
+    - {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
+    - {fileID: 21300000, guid: 2277954f2039cf84fab9996a4ddd446e, type: 3}
+    CorrectAnswers: 2
+  - Question: Find The Mother ?
+    Answers:
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: e63ce8fff74ad8747ae9f323dbbe2f13, type: 3}
+    - {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
+    - {fileID: 21300000, guid: 79ab2c49d7907534eaf62635b153334b, type: 3}
+    CorrectAnswers: 3
+  - Question: Find The Sister?
+    Answers:
+    - {fileID: 21300000, guid: 93a66cfdf519f164284a038236c7edd2, type: 3}
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: 2277954f2039cf84fab9996a4ddd446e, type: 3}
+    - {fileID: 21300000, guid: e63ce8fff74ad8747ae9f323dbbe2f13, type: 3}
+    CorrectAnswers: 1
+  - Question: Find The Uncle?
+    Answers:
+    - {fileID: 21300000, guid: 93a66cfdf519f164284a038236c7edd2, type: 3}
+    - {fileID: 21300000, guid: 5b24a7238b051b24c83c85f329cff554, type: 3}
+    - {fileID: 21300000, guid: 7f124c5d3f2249a46978ed20ad697734, type: 3}
+    - {fileID: 21300000, guid: 9a959f4fde7d9b44a932c2787ef20b42, type: 3}
+    CorrectAnswers: 3
   Options:
   - {fileID: 6853844}
   - {fileID: 1546084951}
@@ -2629,10 +2664,10 @@ RectTransform:
   m_Father: {fileID: 1546084952}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.16216813, y: 0.13900001}
+  m_AnchorMax: {x: 0.7977256, y: 0.878}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -126, y: -106}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1653218943
 MonoBehaviour:
@@ -2654,7 +2689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b99fd6681776ebe4594830b92251ff9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e63ce8fff74ad8747ae9f323dbbe2f13, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2862,10 +2897,10 @@ RectTransform:
   m_Father: {fileID: 6853845}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.15263121, y: 0.096866556}
+  m_AnchorMax: {x: 0.7872696, y: 0.8904232}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -126, y: -106}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1740717863
 MonoBehaviour:
@@ -2887,7 +2922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a959f4fde7d9b44a932c2787ef20b42, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

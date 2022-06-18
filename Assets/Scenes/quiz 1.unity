@@ -410,7 +410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9577b6e76decc7840b1947a2333ac28d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -959,7 +959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Animals (Hayvanlar)
+  m_Text: Meyveler (Fruits)
 --- !u!222 &260129205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1757,7 +1757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fc31519aded24a839c1af9e163b6c01, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1807,10 +1807,10 @@ RectTransform:
   m_Father: {fileID: 988903739}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.5273438}
-  m_AnchorMax: {x: 0.87611115, y: 0.59450006}
-  m_AnchoredPosition: {x: -10.126648, y: -21.969116}
-  m_SizeDelta: {x: 116.73923, y: 76.028946}
+  m_AnchorMin: {x: 0, y: 0.09423777}
+  m_AnchorMax: {x: 1, y: 0.6215245}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315948961
 MonoBehaviour:
@@ -1834,10 +1834,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1845,7 +1845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Find the Birth ?
+  m_Text: Find the Pear ?
 --- !u!222 &1315948962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2201,7 +2201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Lesson 5'
+  m_Text: ' Lesson 1'
 --- !u!222 &1449894629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2536,40 +2536,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QandA:
-  - Question: Find The Birth ?
+  - Question: Find The Pear ?
     Answers:
-    - {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
-    - {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
-    - {fileID: 21300000, guid: 3165efd4847deab49b1f0075777bd413, type: 3}
-    - {fileID: 21300000, guid: 9577b6e76decc7840b1947a2333ac28d, type: 3}
+    - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+    - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+    - {fileID: 21300000, guid: fa3924bde7f974cb799caaa5594f3409, type: 3}
+    - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
     CorrectAnswers: 4
-  - Question: Find The Bear?
+  - Question: Find The Apple?
     Answers:
-    - {fileID: 21300000, guid: b99fd6681776ebe4594830b92251ff9b, type: 3}
-    - {fileID: 21300000, guid: ef052057f0404ea4d8e34bf1253d2823, type: 3}
-    - {fileID: 21300000, guid: 7483b5cbae622ac47a727e4453895e1b, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
+    - {fileID: 21300000, guid: f6d5f58465fff456eb84bd071b3134b9, type: 3}
+    - {fileID: 21300000, guid: 0b97d02305ef74e7ea0cb413d9cc158a, type: 3}
+    - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
     CorrectAnswers: 1
-  - Question: Find The Leon
+  - Question: Find The Banana?
     Answers:
-    - {fileID: 21300000, guid: 36fef461f196d914dbe92ca8553338b2, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    - {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: dc035cb5f75664291ad6fee01bf08790, type: 3}
+    - {fileID: 21300000, guid: 26b4d8692c5e74d17bd9dc28bcbe961b, type: 3}
+    - {fileID: 21300000, guid: 50e0347d981414d189ff77217bc6e69c, type: 3}
+    - {fileID: 21300000, guid: 7cea976e1ace4444f9ba08733394d76a, type: 3}
     CorrectAnswers: 3
-  - Question: Find The horse
+  - Question: Find The Cherry?
     Answers:
-    - {fileID: 21300000, guid: 50550c3b85e455942973aa561b7ea4c3, type: 3}
-    - {fileID: 21300000, guid: 36fef461f196d914dbe92ca8553338b2, type: 3}
-    - {fileID: 21300000, guid: 7483b5cbae622ac47a727e4453895e1b, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: b3429463970104bf59512601788bb258, type: 3}
+    - {fileID: 21300000, guid: 55e29d9a03fe24caba914d7134c713c5, type: 3}
+    - {fileID: 21300000, guid: 1fbdfb9bf6c2e4397a1d62eed589ec1f, type: 3}
+    - {fileID: 21300000, guid: 23de36d9c9c854d4dbb503079e846575, type: 3}
     CorrectAnswers: 2
-  - Question: Find The giraffe
+  - Question: Find The Melone?
     Answers:
-    - {fileID: 21300000, guid: ef052057f0404ea4d8e34bf1253d2823, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    - {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
-    - {fileID: 21300000, guid: 3165efd4847deab49b1f0075777bd413, type: 3}
+    - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+    - {fileID: 21300000, guid: dc278087418e64fca83b3d94ad1973ca, type: 3}
+    - {fileID: 21300000, guid: af559321fb6ed4843b3012b08adfebb9, type: 3}
+    - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+    CorrectAnswers: 1
+  - Question: Find The Kiwi?
+    Answers:
+    - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+    - {fileID: 21300000, guid: c715a9f7f4d044049ad333bf06306ed0, type: 3}
+    - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
+    - {fileID: 21300000, guid: c549cabc0e9504b56a64b9171d8962bc, type: 3}
+    CorrectAnswers: 1
+  - Question: Find The Watermelone?
+    Answers:
+    - {fileID: 21300000, guid: b72023ef6c5c54ebb94ee8c520cfe2e9, type: 3}
+    - {fileID: 21300000, guid: bb7faf4c850ef48cdb33c2bd17737619, type: 3}
+    - {fileID: 21300000, guid: af559321fb6ed4843b3012b08adfebb9, type: 3}
+    - {fileID: 21300000, guid: 458b96fa7bc9e4c409f9b7f0b8bb2630, type: 3}
+    CorrectAnswers: 4
+  - Question: Find The Strawberry?
+    Answers:
+    - {fileID: 21300000, guid: bb7faf4c850ef48cdb33c2bd17737619, type: 3}
+    - {fileID: 21300000, guid: b72023ef6c5c54ebb94ee8c520cfe2e9, type: 3}
+    - {fileID: 21300000, guid: 2778111920a9f48399ec6cb24229d5e4, type: 3}
+    - {fileID: 21300000, guid: 0e3588bd6507d4164b8cf749ed372de5, type: 3}
+    CorrectAnswers: 2
+  - Question: Find The Orange ?
+    Answers:
+    - {fileID: 21300000, guid: c549cabc0e9504b56a64b9171d8962bc, type: 3}
+    - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+    - {fileID: 21300000, guid: 6fc31519aded24a839c1af9e163b6c01, type: 3}
+    - {fileID: 21300000, guid: f6d5f58465fff456eb84bd071b3134b9, type: 3}
+    CorrectAnswers: 3
+  - Question: Find The Coconut?
+    Answers:
+    - {fileID: 21300000, guid: fa3924bde7f974cb799caaa5594f3409, type: 3}
+    - {fileID: 21300000, guid: dc278087418e64fca83b3d94ad1973ca, type: 3}
+    - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+    - {fileID: 21300000, guid: 23de36d9c9c854d4dbb503079e846575, type: 3}
     CorrectAnswers: 1
   Options:
   - {fileID: 6853844}
@@ -2654,7 +2689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b99fd6681776ebe4594830b92251ff9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50e0347d981414d189ff77217bc6e69c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2887,7 +2922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
