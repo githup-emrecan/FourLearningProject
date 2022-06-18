@@ -31,7 +31,7 @@ public class Lesson1 : MonoBehaviour
 
   [SerializeField]
     private GameObject LessonEnAudioButton;
-     // denemek için
+     
      public string[] Entext = { "Pear","Strawberry","Apple", "Coconut", "WaterMelon", "Melon", "Cheery", "Kewe", "Banana", "Orange"}; // ingilizce Textler
      public string[] Trtext = {"Armut","Çilek","Elma","Hindistan cevizi", "Karpuz", "Kavun", "Kiraz", "Kivi", "Muz", "Portakal"};  // Türkçe Textler
 
