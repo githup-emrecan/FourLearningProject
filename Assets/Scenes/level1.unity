@@ -234,7 +234,7 @@ RectTransform:
   m_Father: {fileID: 225506440}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.19553125}
+  m_AnchorMin: {x: 0.13755557, y: 0.19553125}
   m_AnchorMax: {x: 0.6304445, y: 0.2644375}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -261,18 +261,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e89d465a66278fa4fb1895b03c50962a, type: 3}
-    m_FontSize: 65
+    m_FontSize: 47
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 65
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Portakal
+  m_Text: TrText
 --- !u!222 &119693741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -537,33 +537,68 @@ MonoBehaviour:
   m_GameObject: {fileID: 227815648}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5df1b94b96920949ba0be601681a3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b94053673a2a084792af0ec79997932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   images:
-  - {fileID: 21300000, guid: f2adafb80ffc97f45a45ad09a40cdd56, type: 3}
-  - {fileID: 21300000, guid: 0292fc9025887a14fbec15f576d9149d, type: 3}
-  - {fileID: 21300000, guid: 30f871506190093409b15293978accf5, type: 3}
-  - {fileID: 21300000, guid: 407f4dfd5e830e041bf8383fd356f957, type: 3}
+  - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
+  - {fileID: 21300000, guid: b72023ef6c5c54ebb94ee8c520cfe2e9, type: 3}
+  - {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
+  - {fileID: 21300000, guid: fa3924bde7f974cb799caaa5594f3409, type: 3}
+  - {fileID: 21300000, guid: 458b96fa7bc9e4c409f9b7f0b8bb2630, type: 3}
+  - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+  - {fileID: 21300000, guid: 55e29d9a03fe24caba914d7134c713c5, type: 3}
+  - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+  - {fileID: 21300000, guid: 50e0347d981414d189ff77217bc6e69c, type: 3}
+  - {fileID: 21300000, guid: 6fc31519aded24a839c1af9e163b6c01, type: 3}
   imageContainer: {fileID: 1878402727}
+  FruitEnSounds:
+  - {fileID: 8300000, guid: 5b57457db6899b6409e58cc61cee7f3a, type: 3}
+  - {fileID: 8300000, guid: 1ab454ca2c82f494c8529a1dc2acab35, type: 3}
+  - {fileID: 8300000, guid: e0bcc2b594cfd7e42ad334f0b37a2834, type: 3}
+  - {fileID: 8300000, guid: 1f065e833cf4c7547b939a3848558703, type: 3}
+  - {fileID: 8300000, guid: 9001a5e2c860f7947944b05ab5313204, type: 3}
+  - {fileID: 8300000, guid: 30e2fef31b737564bb2478ca18ec89c1, type: 3}
+  - {fileID: 8300000, guid: e91769337b43199458b8654a6528a23d, type: 3}
+  - {fileID: 8300000, guid: 1d40a9e7913c24a4195b08867c70620e, type: 3}
+  - {fileID: 8300000, guid: 6fdb998cc5079064c88ac4b125e963aa, type: 3}
+  - {fileID: 8300000, guid: 225359fe239bd0d46aaf773b979b2d21, type: 3}
   FruitTrSounds:
-  - {fileID: 8300000, guid: cdd670e68f6e1bd48913c591556258d7, type: 3}
-  - {fileID: 8300000, guid: 7c149fc2b896a4e488d45a00d87d410c, type: 3}
-  - {fileID: 8300000, guid: 5719971321b331c47b50ea815a5e8e50, type: 3}
-  - {fileID: 8300000, guid: 89f89f1781d771a418daedc50d2682df, type: 3}
+  - {fileID: 8300000, guid: 61c4ed1cdcc01f74eb47f3f74a3459ec, type: 3}
+  - {fileID: 8300000, guid: 38307d64fcecdb14fa48642e97621044, type: 3}
+  - {fileID: 8300000, guid: e952f045027c3134e928b4d57c1b5b3e, type: 3}
+  - {fileID: 8300000, guid: 5830884b72758274b9e86893ce8c10eb, type: 3}
+  - {fileID: 8300000, guid: ad1ad6e0561ace841b791050c6967cb7, type: 3}
+  - {fileID: 8300000, guid: f8d1424e73bd89a468fb4fd7cf7a58ae, type: 3}
+  - {fileID: 8300000, guid: 374f50c9ecc96404790d5eab90932d11, type: 3}
+  - {fileID: 8300000, guid: 43bb8821676fe124a8f490c22b5f84b1, type: 3}
+  - {fileID: 8300000, guid: 5703fd3bb242d084fa720ad6d46bc1c0, type: 3}
+  - {fileID: 8300000, guid: 3118498a5d636e747bd03de7137356b9, type: 3}
   LessonNextButton: {fileID: 227815648}
   LessonBackButton: {fileID: 1354365674}
   LessonEnAudioButton: {fileID: 1359371051}
   Entext:
+  - Pear
+  - Strawberry
   - Apple
+  - Coconut
+  - WaterMelone
+  - Melone
+  - Cheery
+  - Kiwi
   - Banana
   - Orange
-  - strawberry
   Trtext:
+  - Armut
+  - "\xC7ilek"
   - Elma
+  - Hindistan cevizi
+  - Karpuz
+  - Kavun
+  - Kiraz
+  - Kivi
   - Muz
   - Portakal
-  - "\xC7ilek"
   displayEnText: {fileID: 679532717}
   displayTRText: {fileID: 119693740}
 --- !u!82 &227815654
@@ -890,10 +925,10 @@ RectTransform:
   m_Father: {fileID: 225506440}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.6671875}
-  m_AnchorMax: {x: 0.84572226, y: 0.7427813}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.186, y: 0.6}
+  m_AnchorMax: {x: 0.85544443, y: 0.7427813}
+  m_AnchoredPosition: {x: -3.5, y: 0}
+  m_SizeDelta: {x: -7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647872393
 MonoBehaviour:
@@ -928,7 +963,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fruits (Meyveler)
+  m_Text: Meyveler (Fruits)
 --- !u!222 &647872394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1052,10 +1087,10 @@ RectTransform:
   m_Father: {fileID: 225506440}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.28034377}
+  m_AnchorMin: {x: 0.13755557, y: 0.27478126}
   m_AnchorMax: {x: 0.6304445, y: 0.34565628}
-  m_AnchoredPosition: {x: -11.5, y: 0}
-  m_SizeDelta: {x: -23, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679532717
 MonoBehaviour:
@@ -1079,18 +1114,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e89d465a66278fa4fb1895b03c50962a, type: 3}
-    m_FontSize: 65
+    m_FontSize: 47
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 65
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Orange
+  m_Text: EnText
 --- !u!222 &679532718
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1261,6 +1296,8 @@ GameObject:
   - component: {fileID: 1169724461}
   - component: {fileID: 1169724460}
   - component: {fileID: 1169724459}
+  - component: {fileID: 1169724463}
+  - component: {fileID: 1169724462}
   m_Layer: 5
   m_Name: TrAudio
   m_TagString: Untagged
@@ -1330,7 +1367,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1169724460}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169724463}
+        m_TargetAssemblyTypeName: Lesson1, Assembly-CSharp
+        m_MethodName: ShowTrSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1169724460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1369,6 +1418,175 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169724457}
   m_CullTransparentMesh: 1
+--- !u!82 &1169724462
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169724457}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1169724463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169724457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b94053673a2a084792af0ec79997932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  images:
+  - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
+  - {fileID: 21300000, guid: b72023ef6c5c54ebb94ee8c520cfe2e9, type: 3}
+  - {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
+  - {fileID: 21300000, guid: fa3924bde7f974cb799caaa5594f3409, type: 3}
+  - {fileID: 21300000, guid: 458b96fa7bc9e4c409f9b7f0b8bb2630, type: 3}
+  - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+  - {fileID: 21300000, guid: 55e29d9a03fe24caba914d7134c713c5, type: 3}
+  - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+  - {fileID: 21300000, guid: 50e0347d981414d189ff77217bc6e69c, type: 3}
+  - {fileID: 21300000, guid: 6fc31519aded24a839c1af9e163b6c01, type: 3}
+  imageContainer: {fileID: 1878402727}
+  FruitEnSounds:
+  - {fileID: 8300000, guid: 5b57457db6899b6409e58cc61cee7f3a, type: 3}
+  - {fileID: 8300000, guid: 1ab454ca2c82f494c8529a1dc2acab35, type: 3}
+  - {fileID: 8300000, guid: e0bcc2b594cfd7e42ad334f0b37a2834, type: 3}
+  - {fileID: 8300000, guid: 1f065e833cf4c7547b939a3848558703, type: 3}
+  - {fileID: 8300000, guid: 9001a5e2c860f7947944b05ab5313204, type: 3}
+  - {fileID: 8300000, guid: 30e2fef31b737564bb2478ca18ec89c1, type: 3}
+  - {fileID: 8300000, guid: e91769337b43199458b8654a6528a23d, type: 3}
+  - {fileID: 8300000, guid: 1d40a9e7913c24a4195b08867c70620e, type: 3}
+  - {fileID: 8300000, guid: 6fdb998cc5079064c88ac4b125e963aa, type: 3}
+  - {fileID: 8300000, guid: 225359fe239bd0d46aaf773b979b2d21, type: 3}
+  FruitTrSounds:
+  - {fileID: 8300000, guid: 61c4ed1cdcc01f74eb47f3f74a3459ec, type: 3}
+  - {fileID: 8300000, guid: 38307d64fcecdb14fa48642e97621044, type: 3}
+  - {fileID: 8300000, guid: e952f045027c3134e928b4d57c1b5b3e, type: 3}
+  - {fileID: 8300000, guid: 5830884b72758274b9e86893ce8c10eb, type: 3}
+  - {fileID: 8300000, guid: ad1ad6e0561ace841b791050c6967cb7, type: 3}
+  - {fileID: 8300000, guid: f8d1424e73bd89a468fb4fd7cf7a58ae, type: 3}
+  - {fileID: 8300000, guid: 374f50c9ecc96404790d5eab90932d11, type: 3}
+  - {fileID: 8300000, guid: 43bb8821676fe124a8f490c22b5f84b1, type: 3}
+  - {fileID: 8300000, guid: 5703fd3bb242d084fa720ad6d46bc1c0, type: 3}
+  - {fileID: 8300000, guid: 3118498a5d636e747bd03de7137356b9, type: 3}
+  LessonNextButton: {fileID: 227815648}
+  LessonBackButton: {fileID: 1354365674}
+  LessonEnAudioButton: {fileID: 1359371051}
+  Entext:
+  - Pear
+  - Strawberry
+  - Apple
+  - Coconut
+  - WaterMelone
+  - Melone
+  - Cheery
+  - Kiwi
+  - Banana
+  - Orange
+  Trtext:
+  - Armut
+  - "\xC7ilek"
+  - Elma
+  - Hindistan cevizi
+  - Karpuz
+  - Kavun
+  - Kiraz
+  - Kivi
+  - Muz
+  - Portakal
+  displayEnText: {fileID: 679532717}
+  displayTRText: {fileID: 119693740}
 --- !u!1 &1354365674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,33 +1732,68 @@ MonoBehaviour:
   m_GameObject: {fileID: 1354365674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5df1b94b96920949ba0be601681a3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b94053673a2a084792af0ec79997932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   images:
-  - {fileID: 21300000, guid: f2adafb80ffc97f45a45ad09a40cdd56, type: 3}
-  - {fileID: 21300000, guid: 0292fc9025887a14fbec15f576d9149d, type: 3}
-  - {fileID: 21300000, guid: 30f871506190093409b15293978accf5, type: 3}
-  - {fileID: 21300000, guid: 407f4dfd5e830e041bf8383fd356f957, type: 3}
+  - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
+  - {fileID: 21300000, guid: b72023ef6c5c54ebb94ee8c520cfe2e9, type: 3}
+  - {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
+  - {fileID: 21300000, guid: fa3924bde7f974cb799caaa5594f3409, type: 3}
+  - {fileID: 21300000, guid: 458b96fa7bc9e4c409f9b7f0b8bb2630, type: 3}
+  - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+  - {fileID: 21300000, guid: 55e29d9a03fe24caba914d7134c713c5, type: 3}
+  - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+  - {fileID: 21300000, guid: 50e0347d981414d189ff77217bc6e69c, type: 3}
+  - {fileID: 21300000, guid: 6fc31519aded24a839c1af9e163b6c01, type: 3}
   imageContainer: {fileID: 1878402727}
+  FruitEnSounds:
+  - {fileID: 8300000, guid: 5b57457db6899b6409e58cc61cee7f3a, type: 3}
+  - {fileID: 8300000, guid: 1ab454ca2c82f494c8529a1dc2acab35, type: 3}
+  - {fileID: 8300000, guid: e0bcc2b594cfd7e42ad334f0b37a2834, type: 3}
+  - {fileID: 8300000, guid: 1f065e833cf4c7547b939a3848558703, type: 3}
+  - {fileID: 8300000, guid: 9001a5e2c860f7947944b05ab5313204, type: 3}
+  - {fileID: 8300000, guid: 30e2fef31b737564bb2478ca18ec89c1, type: 3}
+  - {fileID: 8300000, guid: e91769337b43199458b8654a6528a23d, type: 3}
+  - {fileID: 8300000, guid: 1d40a9e7913c24a4195b08867c70620e, type: 3}
+  - {fileID: 8300000, guid: 6fdb998cc5079064c88ac4b125e963aa, type: 3}
+  - {fileID: 8300000, guid: 225359fe239bd0d46aaf773b979b2d21, type: 3}
   FruitTrSounds:
-  - {fileID: 8300000, guid: cdd670e68f6e1bd48913c591556258d7, type: 3}
-  - {fileID: 8300000, guid: 7c149fc2b896a4e488d45a00d87d410c, type: 3}
-  - {fileID: 8300000, guid: 5719971321b331c47b50ea815a5e8e50, type: 3}
-  - {fileID: 8300000, guid: 89f89f1781d771a418daedc50d2682df, type: 3}
+  - {fileID: 8300000, guid: 61c4ed1cdcc01f74eb47f3f74a3459ec, type: 3}
+  - {fileID: 8300000, guid: 38307d64fcecdb14fa48642e97621044, type: 3}
+  - {fileID: 8300000, guid: e952f045027c3134e928b4d57c1b5b3e, type: 3}
+  - {fileID: 8300000, guid: 5830884b72758274b9e86893ce8c10eb, type: 3}
+  - {fileID: 8300000, guid: ad1ad6e0561ace841b791050c6967cb7, type: 3}
+  - {fileID: 8300000, guid: f8d1424e73bd89a468fb4fd7cf7a58ae, type: 3}
+  - {fileID: 8300000, guid: 374f50c9ecc96404790d5eab90932d11, type: 3}
+  - {fileID: 8300000, guid: 43bb8821676fe124a8f490c22b5f84b1, type: 3}
+  - {fileID: 8300000, guid: 5703fd3bb242d084fa720ad6d46bc1c0, type: 3}
+  - {fileID: 8300000, guid: 3118498a5d636e747bd03de7137356b9, type: 3}
   LessonNextButton: {fileID: 227815648}
   LessonBackButton: {fileID: 1354365674}
   LessonEnAudioButton: {fileID: 1359371051}
   Entext:
+  - Pear
+  - Strawberry
   - Apple
+  - Coconut
+  - WaterMelone
+  - Melone
+  - Cheery
+  - Kiwi
   - Banana
   - Orange
-  - strawberry
   Trtext:
+  - Armut
+  - "\xC7ilek"
   - Elma
+  - Hindistan cevizi
+  - Karpuz
+  - Kavun
+  - Kiraz
+  - Kivi
   - Muz
   - Portakal
-  - "\xC7ilek"
   displayEnText: {fileID: 679532717}
   displayTRText: {fileID: 119693740}
 --- !u!82 &1354365680
@@ -1878,33 +2131,68 @@ MonoBehaviour:
   m_GameObject: {fileID: 1359371051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5df1b94b96920949ba0be601681a3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b94053673a2a084792af0ec79997932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   images:
-  - {fileID: 21300000, guid: f2adafb80ffc97f45a45ad09a40cdd56, type: 3}
-  - {fileID: 21300000, guid: 0292fc9025887a14fbec15f576d9149d, type: 3}
-  - {fileID: 21300000, guid: 30f871506190093409b15293978accf5, type: 3}
-  - {fileID: 21300000, guid: 407f4dfd5e830e041bf8383fd356f957, type: 3}
+  - {fileID: 21300000, guid: 31740551f69654fb7bc2a39c35d57d9c, type: 3}
+  - {fileID: 21300000, guid: b72023ef6c5c54ebb94ee8c520cfe2e9, type: 3}
+  - {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
+  - {fileID: 21300000, guid: fa3924bde7f974cb799caaa5594f3409, type: 3}
+  - {fileID: 21300000, guid: 458b96fa7bc9e4c409f9b7f0b8bb2630, type: 3}
+  - {fileID: 21300000, guid: 636ed3763815e48fb855165bd6e3bc89, type: 3}
+  - {fileID: 21300000, guid: 55e29d9a03fe24caba914d7134c713c5, type: 3}
+  - {fileID: 21300000, guid: cc8eede50ee1f49efa314de75e5506e3, type: 3}
+  - {fileID: 21300000, guid: 50e0347d981414d189ff77217bc6e69c, type: 3}
+  - {fileID: 21300000, guid: 6fc31519aded24a839c1af9e163b6c01, type: 3}
   imageContainer: {fileID: 1878402727}
+  FruitEnSounds:
+  - {fileID: 8300000, guid: 5b57457db6899b6409e58cc61cee7f3a, type: 3}
+  - {fileID: 8300000, guid: 1ab454ca2c82f494c8529a1dc2acab35, type: 3}
+  - {fileID: 8300000, guid: e0bcc2b594cfd7e42ad334f0b37a2834, type: 3}
+  - {fileID: 8300000, guid: 1f065e833cf4c7547b939a3848558703, type: 3}
+  - {fileID: 8300000, guid: 9001a5e2c860f7947944b05ab5313204, type: 3}
+  - {fileID: 8300000, guid: 30e2fef31b737564bb2478ca18ec89c1, type: 3}
+  - {fileID: 8300000, guid: e91769337b43199458b8654a6528a23d, type: 3}
+  - {fileID: 8300000, guid: 1d40a9e7913c24a4195b08867c70620e, type: 3}
+  - {fileID: 8300000, guid: 6fdb998cc5079064c88ac4b125e963aa, type: 3}
+  - {fileID: 8300000, guid: 225359fe239bd0d46aaf773b979b2d21, type: 3}
   FruitTrSounds:
-  - {fileID: 8300000, guid: cdd670e68f6e1bd48913c591556258d7, type: 3}
-  - {fileID: 8300000, guid: 7c149fc2b896a4e488d45a00d87d410c, type: 3}
-  - {fileID: 8300000, guid: 5719971321b331c47b50ea815a5e8e50, type: 3}
-  - {fileID: 8300000, guid: 89f89f1781d771a418daedc50d2682df, type: 3}
+  - {fileID: 8300000, guid: 61c4ed1cdcc01f74eb47f3f74a3459ec, type: 3}
+  - {fileID: 8300000, guid: 38307d64fcecdb14fa48642e97621044, type: 3}
+  - {fileID: 8300000, guid: e952f045027c3134e928b4d57c1b5b3e, type: 3}
+  - {fileID: 8300000, guid: 5830884b72758274b9e86893ce8c10eb, type: 3}
+  - {fileID: 8300000, guid: ad1ad6e0561ace841b791050c6967cb7, type: 3}
+  - {fileID: 8300000, guid: f8d1424e73bd89a468fb4fd7cf7a58ae, type: 3}
+  - {fileID: 8300000, guid: 374f50c9ecc96404790d5eab90932d11, type: 3}
+  - {fileID: 8300000, guid: 43bb8821676fe124a8f490c22b5f84b1, type: 3}
+  - {fileID: 8300000, guid: 5703fd3bb242d084fa720ad6d46bc1c0, type: 3}
+  - {fileID: 8300000, guid: 3118498a5d636e747bd03de7137356b9, type: 3}
   LessonNextButton: {fileID: 227815648}
   LessonBackButton: {fileID: 1354365674}
   LessonEnAudioButton: {fileID: 1359371051}
   Entext:
+  - Pear
+  - Strawberry
   - Apple
+  - Coconut
+  - WaterMelone
+  - Melone
+  - Cheery
+  - Kiwi
   - Banana
   - Orange
-  - strawberry
   Trtext:
+  - Armut
+  - "\xC7ilek"
   - Elma
+  - Hindistan cevizi
+  - Karpuz
+  - Kavun
+  - Kiraz
+  - Kivi
   - Muz
   - Portakal
-  - "\xC7ilek"
   displayEnText: {fileID: 679532717}
   displayTRText: {fileID: 119693740}
 --- !u!1 &1430802559
@@ -2310,8 +2598,8 @@ RectTransform:
   m_Father: {fileID: 1785039033}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22761863, y: 0.20624873}
-  m_AnchorMax: {x: 0.7756187, y: 0.814}
+  m_AnchorMin: {x: 0.16571628, y: 0.061121795}
+  m_AnchorMax: {x: 0.82900006, y: 0.814}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2335,7 +2623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f2adafb80ffc97f45a45ad09a40cdd56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

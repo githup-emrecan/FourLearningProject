@@ -48,7 +48,7 @@ void Gameover()
      QuizPanel.SetActive(false);
      Scoretxt.text = (score*10).ToString(); 
 
-     if(score <3)
+     if(score <7)
      {
         btnnext.interactable = false;
      }
@@ -65,7 +65,7 @@ public void Retrty()
    void CreateQuestion()
     {
         if(QandA.Count > 0) {
-             CurrentQuestion = Random.Range(0,QandA.Count);
+      CurrentQuestion = Random.Range(0,QandA.Count);
       QuestionText.text = QandA[CurrentQuestion].Question;
       SetAnswers();
         }

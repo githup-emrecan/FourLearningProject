@@ -410,7 +410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9577b6e76decc7840b1947a2333ac28d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f9be1478dfd33f44bc418c589238a5a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -959,7 +959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Animals (Hayvanlar)
+  m_Text: Renkler (Colors)
 --- !u!222 &260129205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1757,7 +1757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41924799cb940474eac96c037d9b5824, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1807,10 +1807,10 @@ RectTransform:
   m_Father: {fileID: 988903739}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.5273438}
-  m_AnchorMax: {x: 0.87611115, y: 0.59450006}
-  m_AnchoredPosition: {x: -10.126648, y: -21.969116}
-  m_SizeDelta: {x: 116.73923, y: 76.028946}
+  m_AnchorMin: {x: 0, y: 0.09423777}
+  m_AnchorMax: {x: 1, y: 0.6215245}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315948961
 MonoBehaviour:
@@ -1834,10 +1834,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1845,7 +1845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Find the Birth ?
+  m_Text: Find the Red ?
 --- !u!222 &1315948962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2201,7 +2201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Lesson 5'
+  m_Text: ' Lesson 2'
 --- !u!222 &1449894629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2536,41 +2536,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QandA:
-  - Question: Find The Birth ?
+  - Question: Find The Red?
     Answers:
-    - {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
-    - {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
-    - {fileID: 21300000, guid: 3165efd4847deab49b1f0075777bd413, type: 3}
-    - {fileID: 21300000, guid: 9577b6e76decc7840b1947a2333ac28d, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
+    - {fileID: 21300000, guid: bba1ee2e0bcd6c147b63f1093efa974f, type: 3}
+    - {fileID: 21300000, guid: fc4828df036a1a3488bbbd6544810bcb, type: 3}
+    - {fileID: 21300000, guid: 3918f712348c56b4eb0fc9c37bc962f5, type: 3}
     CorrectAnswers: 4
-  - Question: Find The Bear?
+  - Question: Find The  White?
     Answers:
-    - {fileID: 21300000, guid: b99fd6681776ebe4594830b92251ff9b, type: 3}
-    - {fileID: 21300000, guid: ef052057f0404ea4d8e34bf1253d2823, type: 3}
-    - {fileID: 21300000, guid: 7483b5cbae622ac47a727e4453895e1b, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: 1ec6908c98ead5146900fe5cb1b07bef, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
+    - {fileID: 21300000, guid: 4f9be1478dfd33f44bc418c589238a5a, type: 3}
+    - {fileID: 21300000, guid: 41924799cb940474eac96c037d9b5824, type: 3}
     CorrectAnswers: 1
-  - Question: Find The Leon
+  - Question: Find The Grey?
     Answers:
-    - {fileID: 21300000, guid: 36fef461f196d914dbe92ca8553338b2, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    - {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+    - {fileID: 21300000, guid: a06a9500afd045446ac8d3914e9ca56d, type: 3}
+    - {fileID: 21300000, guid: fc4828df036a1a3488bbbd6544810bcb, type: 3}
+    - {fileID: 21300000, guid: 0f3b12a57be27f646b9ca940630aac63, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
     CorrectAnswers: 3
-  - Question: Find The horse
+  - Question: Find The Brown?
     Answers:
-    - {fileID: 21300000, guid: 50550c3b85e455942973aa561b7ea4c3, type: 3}
-    - {fileID: 21300000, guid: 36fef461f196d914dbe92ca8553338b2, type: 3}
-    - {fileID: 21300000, guid: 7483b5cbae622ac47a727e4453895e1b, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    CorrectAnswers: 2
-  - Question: Find The giraffe
-    Answers:
-    - {fileID: 21300000, guid: ef052057f0404ea4d8e34bf1253d2823, type: 3}
-    - {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
-    - {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
-    - {fileID: 21300000, guid: 3165efd4847deab49b1f0075777bd413, type: 3}
+    - {fileID: 21300000, guid: 68e06ecb26243444baf0e6c418946883, type: 3}
+    - {fileID: 21300000, guid: a06a9500afd045446ac8d3914e9ca56d, type: 3}
+    - {fileID: 21300000, guid: fc4828df036a1a3488bbbd6544810bcb, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
     CorrectAnswers: 1
+  - Question: Find The Blue?
+    Answers:
+    - {fileID: 21300000, guid: 41924799cb940474eac96c037d9b5824, type: 3}
+    - {fileID: 21300000, guid: bba1ee2e0bcd6c147b63f1093efa974f, type: 3}
+    - {fileID: 21300000, guid: a06a9500afd045446ac8d3914e9ca56d, type: 3}
+    - {fileID: 21300000, guid: 1ec6908c98ead5146900fe5cb1b07bef, type: 3}
+    CorrectAnswers: 1
+  - Question: Find The Pink?
+    Answers:
+    - {fileID: 21300000, guid: 68e06ecb26243444baf0e6c418946883, type: 3}
+    - {fileID: 21300000, guid: 0f3b12a57be27f646b9ca940630aac63, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
+    - {fileID: 21300000, guid: a06a9500afd045446ac8d3914e9ca56d, type: 3}
+    CorrectAnswers: 4
+  - Question: Find The Yellow?
+    Answers:
+    - {fileID: 21300000, guid: bba1ee2e0bcd6c147b63f1093efa974f, type: 3}
+    - {fileID: 21300000, guid: 4f9be1478dfd33f44bc418c589238a5a, type: 3}
+    - {fileID: 21300000, guid: 68e06ecb26243444baf0e6c418946883, type: 3}
+    - {fileID: 21300000, guid: 0f3b12a57be27f646b9ca940630aac63, type: 3}
+    CorrectAnswers: 2
+  - Question: Find The Black ?
+    Answers:
+    - {fileID: 21300000, guid: bba1ee2e0bcd6c147b63f1093efa974f, type: 3}
+    - {fileID: 21300000, guid: 0f3b12a57be27f646b9ca940630aac63, type: 3}
+    - {fileID: 21300000, guid: fc4828df036a1a3488bbbd6544810bcb, type: 3}
+    - {fileID: 21300000, guid: a06a9500afd045446ac8d3914e9ca56d, type: 3}
+    CorrectAnswers: 3
+  - Question: Find The Orange?
+    Answers:
+    - {fileID: 21300000, guid: bba1ee2e0bcd6c147b63f1093efa974f, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
+    - {fileID: 21300000, guid: 4f9be1478dfd33f44bc418c589238a5a, type: 3}
+    - {fileID: 21300000, guid: 41924799cb940474eac96c037d9b5824, type: 3}
+    CorrectAnswers: 1
+  - Question: Find The Green?
+    Answers:
+    - {fileID: 21300000, guid: 0f3b12a57be27f646b9ca940630aac63, type: 3}
+    - {fileID: 21300000, guid: 4f9be1478dfd33f44bc418c589238a5a, type: 3}
+    - {fileID: 21300000, guid: 29b5ab589b113b84aa92c9e879ada459, type: 3}
+    - {fileID: 21300000, guid: 3918f712348c56b4eb0fc9c37bc962f5, type: 3}
+    CorrectAnswers: 3
   Options:
   - {fileID: 6853844}
   - {fileID: 1546084951}
@@ -2654,7 +2689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b99fd6681776ebe4594830b92251ff9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3918f712348c56b4eb0fc9c37bc962f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2887,7 +2922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f3b12a57be27f646b9ca940630aac63, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
