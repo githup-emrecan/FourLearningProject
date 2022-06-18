@@ -19,9 +19,22 @@ public class CharacterMove : MonoBehaviour
     public  GameObject panel;
     public GameObject[] question;
 
+    public GameObject[] players;
+
+
 
     private void Start() 
     {
+        if(PlayerPrefs.GetInt("selectedcharacter") == 0)
+        {
+            players[0].SetActive(true);
+            players[1].SetActive(false);
+        }
+        else
+        {
+            players[1].SetActive(true);
+            players[0].SetActive(false);
+        }
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         moveLeft = false;
