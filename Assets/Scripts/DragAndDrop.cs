@@ -12,6 +12,8 @@ public class DragAndDrop : MonoBehaviour
    public AudioSource source;
    public AudioClip correct,incorrect;
 
+   public GameObject scPanel;
+
    bool pandaCorrect, rabbitCorrect, wolfCorrect, bearCorrect = false;
 
 
@@ -119,7 +121,7 @@ public class DragAndDrop : MonoBehaviour
     {
         if(pandaCorrect && rabbitCorrect && wolfCorrect && bearCorrect == true)
         {
-            SceneManager.LoadScene("level7");
+            scPanel.SetActive(true);
         }    
     }
 

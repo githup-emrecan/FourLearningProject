@@ -65,11 +65,11 @@ public class SpawnManager : MonoBehaviour
         if(RandomFruit == RandomFruitName)
         {
             Destroy(other.gameObject);
-            score +=50;
+            score +=10;
                   if(score > 45)
             {
-                  SuccesOverPanel.SetActive(true); 
-                    CancelInvoke("SpawnFruit");
+                SuccesOverPanel.SetActive(true); 
+                CancelInvoke("SpawnFruit");
                 CancelInvoke("spawnText");
                 buttonLeft.SetActive(false);
                 buttonRight.SetActive(false);
@@ -80,7 +80,7 @@ public class SpawnManager : MonoBehaviour
         else
         {
             Destroy(other.gameObject);
-            score -=50;
+            score -=10;
             if(score < 0)
             {
                 gameOverPanel.SetActive(true);
