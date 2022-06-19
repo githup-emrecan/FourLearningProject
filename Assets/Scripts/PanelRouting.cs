@@ -26,8 +26,8 @@ public class PanelRouting : MonoBehaviour
 
    public void MainRetry()
 {
-    levelChange.levelFive();
-  
+   // levelChange.levelFive();
+    SceneManager.LoadScene("Character");
 }
 
 

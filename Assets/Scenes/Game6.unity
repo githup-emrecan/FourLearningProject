@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LION
+  m_Text: AUNT
 --- !u!222 &30724745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44938674588a83e4da3a181e299d88d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79ab2c49d7907534eaf62635b153334b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -799,7 +799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CAT
+  m_Text: MOTHER
 --- !u!222 &839282000
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FISH
+  m_Text: COUSEN
 --- !u!222 &926051254
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: da1f4c2f6ed3c1a48ab3881ab5108050, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a959f4fde7d9b44a932c2787ef20b42, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ELEPHANT
+  m_Text: FATHER
 --- !u!222 &1306583889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 50550c3b85e455942973aa561b7ea4c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b24a7238b051b24c83c85f329cff554, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8cfcf2d3f0592846885920f3a7a3448, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a81dfbdb7f81ec844baf09d47004011d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
