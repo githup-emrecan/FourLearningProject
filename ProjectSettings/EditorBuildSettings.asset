@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Character.unity
     guid: 023a2841709cb3f458367070e7113edd
   - enabled: 1
-    path: Assets/Scenes/level1.unity
+    path: Assets/Scenes/MeyvelerEgitim.unity
     guid: 3e1b120d6d6f5b649bb2ec5168f471a3
   - enabled: 1
-    path: Assets/Scenes/quiz 1.unity
+    path: Assets/Scenes/MeyvelerQuiz.unity
     guid: 05d0edf35caa2f448a65798ec39acc50
   - enabled: 1
-    path: Assets/Scenes/Game1.unity
+    path: Assets/Scenes/MeyvelerOyun.unity
     guid: 17dc4bf570f69a0488ff46b79ad88648
   - enabled: 0
     path: 

@@ -28,6 +28,7 @@ public class Answer : MonoBehaviour
             if(live == 3)
             {
                 gameOverPanel.SetActive(true);
+                quizManager.questionPanel.SetActive(false);
             }
             
             

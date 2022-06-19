@@ -14,6 +14,8 @@ public class QuizManager : MonoBehaviour
 
    public Text QuestionText;
    public GameObject questionPanel;
+   public GameObject successPanel;
+   public GameObject[] buttons;
    
    
    
@@ -64,6 +66,12 @@ public class QuizManager : MonoBehaviour
                     
                     if(score == 20)
                     {
+                        successPanel.SetActive(true);
+                        buttons[0].SetActive(false);
+                        buttons[1].SetActive(false);
+                        buttons[2].SetActive(false);
+
+                        
                         
                     }
                 }
