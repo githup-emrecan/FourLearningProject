@@ -498,12 +498,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: fe2c0d83493a14948979054c6fe036e3, type: 3}
-    m_FontSize: 79
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 79
-    m_Alignment: 3
+    m_MaxSize: 300
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   xBounds: 3
   yBound: 10
   score: 0
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 850955564}
   DisplayName: {fileID: 709830217}
   RandomFruit: 0
   RandomFruitName: 0

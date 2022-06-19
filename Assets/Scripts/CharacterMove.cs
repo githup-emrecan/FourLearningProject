@@ -20,6 +20,8 @@ public class CharacterMove : MonoBehaviour
     public GameObject[] question;
 
     public GameObject[] players;
+    
+    public GameObject[] cameras;
 
 
 
@@ -29,11 +31,16 @@ public class CharacterMove : MonoBehaviour
         {
             players[0].SetActive(true);
             players[1].SetActive(false);
+            cameras[0].SetActive(true);
+            cameras[1].SetActive(false);
+            
         }
         else
         {
             players[1].SetActive(true);
             players[0].SetActive(false);
+            cameras[1].SetActive(true);
+            cameras[0].SetActive(false);
         }
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
