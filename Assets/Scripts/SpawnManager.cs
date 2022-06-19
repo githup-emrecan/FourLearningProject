@@ -22,6 +22,9 @@ public class SpawnManager : MonoBehaviour
     public int RandomFruit,RandomFruitName;
 
     public GameObject gameOverPanel;
+
+     public GameObject SuccesOverPanel;
+     
     public GameObject buttonRight,buttonLeft;
     CharacterMove cm;
     
@@ -45,13 +48,13 @@ public class SpawnManager : MonoBehaviour
     {
         
         float RandomX = Random.Range(-xBounds,xBounds);
-        RandomFruit = Random.Range(0,fruits.Length);
+        RandomFruit = Random.Range(0,fruits.Length-2);
         Vector2 spawnPos = new Vector2(RandomX,yBound);
         Instantiate(fruits[RandomFruit],spawnPos,fruits[RandomFruit].gameObject.transform.rotation);
     }
     public void spawnText()
     {
-        RandomFruitName = Random.Range(0,fruits.Length); 
+        RandomFruitName = Random.Range(0,fruits.Length-3); 
         DisplayName.text=fruits[RandomFruitName].name;
     }
     
@@ -62,14 +65,22 @@ public class SpawnManager : MonoBehaviour
         if(RandomFruit == RandomFruitName)
         {
             Destroy(other.gameObject);
-            score +=5;
-                
+            score +=50;
+                  if(score > 45)
+            {
+                  SuccesOverPanel.SetActive(true); 
+                    CancelInvoke("SpawnFruit");
+                CancelInvoke("spawnText");
+                buttonLeft.SetActive(false);
+                buttonRight.SetActive(false);
+            } 
         
         }
+        
         else
         {
             Destroy(other.gameObject);
-            score -=5;
+            score -=50;
             if(score < 0)
             {
                 gameOverPanel.SetActive(true);
@@ -79,10 +90,7 @@ public class SpawnManager : MonoBehaviour
                 buttonRight.SetActive(false);
                 
             }  
-            if(score == 50)
-            {
-                SceneManager.LoadScene(4);
-            } 
+          
         }
     }
 

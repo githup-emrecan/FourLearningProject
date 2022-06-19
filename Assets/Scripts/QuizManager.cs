@@ -14,7 +14,7 @@ public class QuizManager : MonoBehaviour
 
    public Text QuestionText;
    public GameObject questionPanel;
-   //public GameObject question;
+   
    
    
 
@@ -64,7 +64,7 @@ public class QuizManager : MonoBehaviour
                     
                     if(score == 20)
                     {
-                        SceneManager.LoadScene("level5");
+                        
                     }
                 }
                 

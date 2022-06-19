@@ -30,12 +30,12 @@ public class LevelChange : MonoBehaviour
 
     public void levelFour()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(2);
     }
 
     public void levelFive()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(2);
         
     }
     
