@@ -16,7 +16,7 @@ public class CharacterMove1 : MonoBehaviour
     Animator anim;
 
     public float speed = 5f;
-    public  GameObject panel;
+    
 
     public GameObject[] players;
     
