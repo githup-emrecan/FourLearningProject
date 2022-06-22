@@ -89,7 +89,7 @@ public class Lesson1 : MonoBehaviour
  { 
 
    if(ImageCount == images.Length-1) {
-            SceneManager.LoadScene("quiz 1");
+            SceneManager.LoadScene("MeyvelerQuiz");
          }
 
      ImageCount= ImageCount+1;

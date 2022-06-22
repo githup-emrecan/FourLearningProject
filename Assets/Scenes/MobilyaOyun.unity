@@ -6734,9 +6734,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1878029245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c4d8b8fef6d743499c8eec5a3945561, type: 3}
+  m_Script: {fileID: 11500000, guid: 47f542385d4075d49b93690730da2a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextSceneLoad: 0
 --- !u!114 &1878029248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6782,8 +6783,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1878029247}
-        m_TargetAssemblyTypeName: PanelRouting, Assembly-CSharp
-        m_MethodName: MainRetry
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: clicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

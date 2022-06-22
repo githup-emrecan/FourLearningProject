@@ -38,6 +38,6 @@ public class levelScreen : MonoBehaviour
     }
     public void BackScene()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainMenu");
     }
 }

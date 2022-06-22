@@ -533,10 +533,10 @@ RectTransform:
   m_Father: {fileID: 1457044655}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.7275001}
-  m_AnchorMax: {x: 0.77900004, y: 0.82400006}
-  m_AnchoredPosition: {x: -5.69751, y: 136.57043}
-  m_SizeDelta: {x: 43.289, y: 19.377197}
+  m_AnchorMin: {x: 0.13883334, y: 0.7275001}
+  m_AnchorMax: {x: 0.85544443, y: 0.81644034}
+  m_AnchoredPosition: {x: 0, y: 140.57043}
+  m_SizeDelta: {x: 0, y: 27.377197}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241254606
 MonoBehaviour:
@@ -571,7 +571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Lesson 5'
+  m_Text: ' Lesson 10'
 --- !u!222 &241254607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2239,10 +2239,10 @@ RectTransform:
   m_Father: {fileID: 1221958015}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.186, y: 0.7275001}
-  m_AnchorMax: {x: 0.77900004, y: 0.82400006}
-  m_AnchoredPosition: {x: 0.08001709, y: 0.42041016}
-  m_SizeDelta: {x: 0, y: 0.07720947}
+  m_AnchorMin: {x: 0.16244444, y: 0.7275001}
+  m_AnchorMax: {x: 0.8081667, y: 0.82400006}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424999086
 MonoBehaviour:
@@ -2277,7 +2277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Lesson 5'
+  m_Text: ' Lesson 10'
 --- !u!222 &1424999087
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2683,6 +2683,7 @@ GameObject:
   - component: {fileID: 1970100022}
   - component: {fileID: 1970100021}
   - component: {fileID: 1970100023}
+  - component: {fileID: 1970100024}
   m_Layer: 5
   m_Name: next
   m_TagString: Untagged
@@ -2792,9 +2793,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247704071}
-        m_TargetAssemblyTypeName: LesQuizManager, Assembly-CSharp
-        m_MethodName: quiz10Button
+      - m_Target: {fileID: 1970100024}
+        m_TargetAssemblyTypeName: PanelRouting, Assembly-CSharp
+        m_MethodName: NextHavaDurumu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2804,6 +2805,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1970100024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970100019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4d8b8fef6d743499c8eec5a3945561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2122474320
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class Lesson2 : MonoBehaviour
 {
@@ -82,6 +83,9 @@ public class Lesson2 : MonoBehaviour
 
  public void ArrayCountIncrease()
  { 
+   if(ImageCount == images.Length-1) {
+         SceneManager.LoadScene("RenklerQuiz");
+      }
      ImageCount= ImageCount+1;
     ShowInArray(ImageCount);
     LessonNextButton.GetComponent<Button>().interactable = false;

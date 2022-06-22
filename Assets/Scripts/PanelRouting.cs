@@ -6,29 +6,58 @@ public class PanelRouting : MonoBehaviour
 {
 
 
-     LevelChange levelChange;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    LevelChange levelChange;
     public void Retrty()
-{
+    {
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-}
+    }
 
    public void MainRetry()
-{
-   // levelChange.levelFive();
-    SceneManager.LoadScene("Character");
-}
+    {
+     SceneManager.LoadScene("Character");
+    }
+
+    public void NextMeyve()
+    {
+        SceneManager.LoadScene("MeyvelerOyun");
+    }
+
+     public void NextRenkler()
+    {
+        SceneManager.LoadScene("RenklerOyun");
+    }
+    public void NextAile()
+    {
+        SceneManager.LoadScene("AileOyun");
+    }
+    public void NextDuygular()
+    {
+        SceneManager.LoadScene("DuygularOyun");
+    }
+    public void NextHayvanlar()
+    {
+        SceneManager.LoadScene("HayvanlarOyun");
+    }
+    public void NextAnatomi()
+    {
+        SceneManager.LoadScene("AnatomiOyun");
+    }
+    public void NextMobilya()
+    {
+        SceneManager.LoadScene("MobilyaOyun");
+    }
+    public void NextUlasım()
+    {
+        SceneManager.LoadScene("UlasımOyun");
+    }
+    public void NextMuzik()
+    {
+        SceneManager.LoadScene("MuzikOyun");
+    }
+     public void NextHavaDurumu()
+    {
+        SceneManager.LoadScene("HavaDurumuOyun");
+    }
 
 
 }

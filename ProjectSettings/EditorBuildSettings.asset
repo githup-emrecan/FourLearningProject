@@ -20,25 +20,85 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MeyvelerOyun.unity
     guid: 17dc4bf570f69a0488ff46b79ad88648
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/RenklerEgitim.unity
+    guid: 09ee680e43aa1444f80b7403edeeec6d
+  - enabled: 1
+    path: Assets/Scenes/RenklerQuiz.unity
+    guid: ee22d6819bfbbee40bac75219d7a280b
+  - enabled: 1
+    path: Assets/Scenes/RenklerOyun.unity
+    guid: 42e60e98193ed964098892c009c0fca2
+  - enabled: 1
+    path: Assets/Scenes/AileEgitim.unity
+    guid: 17c9c5b67a2ada34c94451e346656e23
+  - enabled: 1
+    path: Assets/Scenes/AileQuiz.unity
+    guid: 8d43cb8eaeea1ee4b9d5ea4317a2211d
+  - enabled: 1
+    path: Assets/Scenes/AileOyun.unity
+    guid: 2a7b8a0e089f15749b000d59dfdb5695
+  - enabled: 1
+    path: Assets/Scenes/DuygularEgitim.unity
+    guid: f456fb8a925d294418fdb5147ef55d6d
+  - enabled: 1
+    path: Assets/Scenes/DuygularQuiz.unity
+    guid: 52c8dd9bdb9ba724188e5b831fa8cd49
+  - enabled: 1
+    path: Assets/Scenes/DuygularOyun.unity
+    guid: fa8b92dc946c339478ae5adfd41ded7a
+  - enabled: 1
+    path: Assets/Scenes/HayvanlarEgitim.unity
+    guid: 809b1da7467645346ab896dca1eb6970
+  - enabled: 1
+    path: Assets/Scenes/HayvanlarQuiz.unity
+    guid: 3f69c0f7010c8f648bc34cc269c9e0ae
+  - enabled: 1
+    path: Assets/Scenes/HayvanlarOyun.unity
+    guid: d1860738929392a4bb112d2684ea4ac7
+  - enabled: 1
+    path: Assets/Scenes/AnatomiEgitim.unity
+    guid: b8c1d25fd6417464e8255eedb529a0fd
+  - enabled: 1
+    path: Assets/Scenes/AnatomiQuiz.unity
+    guid: c22000558e62b2e408c101ec0252f79b
+  - enabled: 1
+    path: Assets/Scenes/AnatomiOyun.unity
+    guid: 3cd66bd16762a2a47ad89c67f09021fc
+  - enabled: 1
+    path: Assets/Scenes/MobilyaEgitim.unity
+    guid: 7ba01386e207b234bbe7628c1114ab06
+  - enabled: 1
+    path: Assets/Scenes/MobilyaQuiz.unity
+    guid: 22017e97618e908459dfa2653ddc06c0
+  - enabled: 1
+    path: Assets/Scenes/MobilyaOyun.unity
+    guid: a99ef8a1da12bbc429415d3fcdf18d59
+  - enabled: 1
+    path: "Assets/Scenes/Ulas\u0131mEgitim.unity"
+    guid: 65dd5a3bcf6c8b0489b1e7880adb42ad
+  - enabled: 1
+    path: "Assets/Scenes/Ulas\u0131mQuiz.unity"
+    guid: 380a4b4a00a814542a06ff873b561b70
+  - enabled: 1
+    path: "Assets/Scenes/Ulas\u0131mOyun.unity"
+    guid: 98ab21d4a00334d4ead83a5b358b5828
+  - enabled: 1
+    path: Assets/Scenes/MuzikEgitim.unity
+    guid: dac88e78dfdd64442a88a717ec422865
+  - enabled: 1
+    path: Assets/Scenes/MuzikQuiz.unity
+    guid: 5ff331f976af27b4dac6cb96dae3b034
+  - enabled: 1
+    path: Assets/Scenes/MuzikOyun.unity
+    guid: 95ccf3e70f3517848b02881c5a1ebb6b
+  - enabled: 1
+    path: Assets/Scenes/HavaDurumuEgitim.unity
+    guid: aafcbabacc9eba94a813ef4ef26a3764
+  - enabled: 1
+    path: Assets/Scenes/HavaDurumuQuiz.unity
+    guid: 5b5b1c9cbd61f9242ab9da5effab8555
+  - enabled: 1
+    path: Assets/Scenes/HavaDurumuOyun.unity
+    guid: cec7e8d986ad3d645b442a4e3fba9cf2
   m_configObjects: {}
